@@ -1,0 +1,92 @@
+.btn-div button {
+    padding: 2vh;
+    width: 10vh;
+    font-size: 1.5rem;
+    background-color: black !important;
+    border: none !important;
+    box-shadow: 0px 0px 15px rgb(89, 88, 88);
+}
+
+.btn-div button:hover {
+    border: 1px solid white !important;
+}
+
+.input-div input {
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+body {
+    background-color: black !important;
+}
+
+.calc-body {
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    border: 1px rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 27px 30px 27px 30px;
+    box-shadow:  5px 25px 75px rgb(23, 23, 23) ,
+      10px 10px 30px  rgb(67, 66, 66),
+     inset 1px 1px 10px red ,
+      inset 1px 1px 10px rgb(228, 120, 4);
+}
+
+.g-font p {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.g-font p span {
+    color: yellow;
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    10% {
+        color: red
+    }
+
+    25% {
+        color: yellow
+    }
+
+    50% {
+        color: blue
+    }
+
+    75% {
+        color: orangered
+    }
+
+    100% {
+        color: green
+    }
+}
+
+@keyframes example1 {
+    25% {
+        color: yellow
+    }
+
+    50% {
+        color: rgb(18, 227, 238)
+    }
+
+    75% {
+        color: rgb(230, 97, 8)
+    }
+
+    100% {
+        color: rgb(19, 127, 235)
+    }
+
+}
